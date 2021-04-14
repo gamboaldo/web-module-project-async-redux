@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid black;
-}
+} */
 html {
   background: url("https://th.bing.com/th/id/R48b8d860db3cdfb0e723d396e1aa745d?rik=3QReOv%2fNqRA8lA&riu=http%3a%2f%2fcdn.collider.com%2fwp-content%2fuploads%2f2018%2f03%2fadult-swim-festival-rick-and-morty-run-the-jewels.jpg&ehk=HQMmI2SllftTFpN%2fABcr%2bPTOQ131EDoumN44Znf2GeE%3d&risl=&pid=ImgRaw")
     no-repeat center center fixed;
@@ -13,21 +13,49 @@ html {
   text-align: center;
 }
 
-.characters {
+/* .characters {
   text-align: center;
-}
+} */
 
 .card-list {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 15%;
+  /* margin-top: -10%; */
 }
 .card {
-  margin-bottom: 10%;
-  width: 80%;
-  padding: 10%;
+  width: 70%;
+  height: 50%;
+  /* padding: 10%; */
+  padding-bottom: 8%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   backdrop-filter: blur(5px);
+}
+
+.card2 {
+  background: url("https://th.bing.com/th/id/OIP.HI9D8-N3MPPSSIm83wLRtgAAAA?pid=ImgDet&rs=1");
+}
+
+h1 {
+  color: #131313;
+  background-color: #e7e5e4;
+  letter-spacing: 0.15em;
+}
+h2,
+h3 {
+  color: whitesmoke;
+  color: #fff;
+  /* background-color: #333; */
+  text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px,
+    red 0 -18px 40px;
+}
+
+img {
+  height: 75%;
+  -webkit-box-shadow: 0px 0px 60px 5px #23ff00;
+  box-shadow: 0px 0px 60px 5px #23ff00;
 }

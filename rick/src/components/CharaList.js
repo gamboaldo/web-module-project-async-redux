@@ -28,12 +28,15 @@ const CharaList = (props) => {
         <Card className="card-list">
           {characters.map((person) => (
             <div key={person.id} className="card">
-              <CardTitle tag="h2"> {person.name}</CardTitle>
-              <CardImg src={person.image} alt="" />
-              <CardSubtitle tag="h3">{person.origin.name}</CardSubtitle>
-              <CardText tag="h4" className="mb-2 text-muted">
-                {person.status}
-              </CardText>
+              <Card className="card2">
+                <h1> {person.name}</h1>
+                <img width="80%" src={person.image} alt="" />
+                <h2>{person.origin.name}</h2>
+                <h2>{person.species}</h2>
+                <h2>{person.gender}</h2>
+                <h2>{person.status}</h2>
+                <h2>{person.location.name}</h2>
+              </Card>
             </div>
           ))}
         </Card>
