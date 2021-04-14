@@ -1,42 +1,33 @@
-/* * {
+* {
   border: 1px solid black;
-} */
-
+}
+html {
+  background: url("https://th.bing.com/th/id/R48b8d860db3cdfb0e723d396e1aa745d?rik=3QReOv%2fNqRA8lA&riu=http%3a%2f%2fcdn.collider.com%2fwp-content%2fuploads%2f2018%2f03%2fadult-swim-festival-rick-and-morty-run-the-jewels.jpg&ehk=HQMmI2SllftTFpN%2fABcr%2bPTOQ131EDoumN44Znf2GeE%3d&risl=&pid=ImgRaw")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.characters {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  margin-bottom: 10%;
+  width: 80%;
+  padding: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  backdrop-filter: blur(5px);
 }
